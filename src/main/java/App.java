@@ -11,6 +11,10 @@ public class App {
         Person antony = new Person("Antony", mobile);
         IPhoneRobot iPhoneRobot = new IPhoneRobot("Robot", iPhone);
 
+        mobile.printBasicInfo();
+        iPhone.printBasicInfo();
+        android.printBasicInfo();
+
         person.makeCall("Antonio make a call but no one cares.");
 
         antony.makeCall("Hey there, I am Antony. And I am using Nokia N95.");
