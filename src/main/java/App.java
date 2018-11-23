@@ -18,7 +18,11 @@ public class App {
         person.makeCall("Antonio make a call but no one cares.");
 
         antony.makeCall("Hey there, I am Antony. And I am using Nokia N95.");
+        antony.setMobile(iPhone);
+        antony.makeCall("Antony changed new phone.");
+        antony.makeCall("Sony is better than Apple la!!");
         antony.setMobile(android);
+        antony.makeCall("Antony changed new phone.");
         antony.makeCall("Sony is better than Apple la!!");
         antony.makeCall("Sony is better than Apple la of coz!!");
 
